@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+background-color: rgba(211, 211, 211, 0.24);
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+main h1{
+background-color: rgba(0, 0, 0, 0.719);
+color: white;
+width: 100%;
+height: 50px;
+padding-top: 7px;
+}
+main ul li{
+    list-style: none;
+    margin-top: 7px;
+    font-size: 20px;
+}
+#ibutton{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    border-radius: 5px;
+}
+main ul {
+margin-top: 15px;
+}
+#iname, #ialtura, #ipeso{
+height: 40px;
+text-align: center;
+border-radius: 5px;
+}
+#iresult{
+font-size: 17px;
+background-color: white;
+color: black;
+padding: 50px;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+.orientacoes{
+font-size: 15px;
+margin-bottom: 10px;
+}
+
+footer{
+    margin-top: auto;
+text-align: center;
+padding-top: 3px;
+background-color: rgba(0, 0, 0, 0.719);
+color: white;
+}
