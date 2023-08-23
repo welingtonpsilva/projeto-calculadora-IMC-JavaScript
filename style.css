@@ -27,6 +27,16 @@ main ul li{
     margin-top: 7px;
     font-size: 20px;
 }
+main ul label{
+    list-style: none;
+    margin-top: 7px;
+    font-size: 20px;
+}
+main ul li input{
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
 #ibutton{
     margin-bottom: 10px;
     margin-top: 10px;
