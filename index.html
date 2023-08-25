@@ -8,25 +8,35 @@
 </head>
 <body>
     <header>
-
+        <h1>Calculadora IMC</h1>
     </header>
     <main>
-        <h1>Calculadora IMC</h1>
+        
         <ul>
             <label for="iname">
                 Digite seu Nome
             </label>
             <li><input type="text" id="iname" placeholder="Seu nome"></li>
-            <label for="ialtura">
-                Digite sua Altura (metro e cm)
-            </label>
-            <li><input type="number" name="altura" id="ialtura" placeholder="altura ex: 1,80"></li>
-            <label for="ipeso">
-                Digite seu Peso (Kg)
-            </label>
-            <li><input type="number" name="peso" id="ipeso" placeholder="peso ex: 80"></li>
+
+            <section class="inputs">
+                <div class="div1">
+                    <label for="ialtura">
+                        Digite sua Altura (cm)
+                    </label>
+                    <li><input type="number" name="altura" id="ialtura" placeholder="altura ex: 1,80"></li>
+                </div>
+
+                <div class="div2">
+                    <label for="ipeso">
+                        Digite seu Peso (Kg)
+                    </label>
+                    <li><input type="number" name="peso" id="ipeso" placeholder="peso ex: 80"></li>
+                </div>
+
+            </section>
+            <p id="iresult"></p>
             <input type="button" value="Calcular" id="ibutton">
-            <p id="iresult">O resultado aparece aqui</p>
+            
         </ul>
 
         <ul class="orientacoes">
